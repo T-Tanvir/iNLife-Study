@@ -24,10 +24,15 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Examples",
+        text: "Starting",
+        items: [{ text: "Intro", link: "/intro" }],
+      },
+      {
+        text: "Physics",
+        collapsed: false,
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "1st Paper", link: "/Physics/1st-Paper" },
+          { text: "2nd Paper", link: "/Physics/2nd-Paper" },
         ],
       },
     ],
