@@ -2,6 +2,14 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => tag === "lite-youtube",
+      },
+    },
+  },
+
   srcDir: "docs",
 
   title: "iNLife Study",

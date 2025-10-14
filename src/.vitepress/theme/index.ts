@@ -4,6 +4,14 @@ import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import "./style.css";
 
+import { inBrowser } from "vitepress";
+import "lite-youtube-embed/src/lite-yt-embed.css";
+
+if (inBrowser) {
+  // @ts-ignore
+  import("lite-youtube-embed");
+}
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
