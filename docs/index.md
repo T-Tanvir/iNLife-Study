@@ -3,13 +3,16 @@
 layout: home
 
 hero:
-  name: "iNLife Study"
-  text: "My study life"
+  name: "My Awesome Project"
+  text: "A VitePress Site"
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Physics
-      link: /Physics/1st-Paper
+      text: Markdown Examples
+      link: /intro
+    - theme: alt
+      text: API Examples
+      link: /api-examples
 
 features:
   - title: Feature A
