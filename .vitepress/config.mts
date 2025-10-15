@@ -29,9 +29,24 @@ export default defineConfig({
       },
       {
         text: "Physics",
-        collapsed: false,
+        collapsed: true,
         items: [
-          { text: "1st Paper", link: "/Physics/1st-Paper" },
+          {
+            text: "1st Paper",
+            collapsed: true,
+            items: [
+              {
+                text: "Chapter 3",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Vector Devision",
+                    link: "/Physics/1st-Paper/Chapter-3/Vector-Devision",
+                  },
+                ],
+              },
+            ],
+          },
           { text: "2nd Paper", link: "/Physics/2nd-Paper" },
         ],
       },

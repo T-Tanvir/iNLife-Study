@@ -137,3 +137,8 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/* Changes the badge to the center of line hight */
+.vp-doc h1 .VPBadge {
+  display: inline-block;
+  vertical-align: middle;
+}

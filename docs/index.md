@@ -22,5 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
-<lite-youtube videoid="orvng_11ngQ" params="start=560" />
